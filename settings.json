@@ -1,0 +1,182 @@
+{
+  "explorer.autoReveal": true, // para abrir el explorardor y mostrar ell archivoo actual trabajado
+  "terminal.external.linuxExec": "alacritty",
+  "thunder-client.requestLayout": "Top/Bottom",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.wordWarp": "on",
+  "editor.scrollbar.vertical": "auto",
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": false,
+  "editor.formatOnSave": true,
+  "editor.guides.indentation": true,
+  "indenticator.width": 0.1,
+  "indenticator.color.dark": "rgba(255,255,255,0.1)",
+
+  "editor.fontFamily": "'CaskaydiaCove Nerd Font', 'mononoki NF','UbuntuMono NF', 'JetBrainsMono NF', 'monospace'",
+  "editor.fontSize": 12.5,
+  "editor.lineHeight": 15,
+  "terminal.integrated.fontSize": 13,
+
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["i", "i"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["i", "I"],
+      "after": ["<Esc>", "A"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["i", "i"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<leader>", "x"],
+      "commands": [":w"]
+    },
+    {
+      "before": ["<leader>", "z"],
+      "commands": [":q"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["lineBreakInsert"],
+      "silent": true
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+
+  "tabnine.experimentalAutoImports": true,
+  "dart.openDevTools": "flutter",
+  "editor.lineNumbers": "relative",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "sync.gist": "251a9d72cfcdc120caf4c9c97ae7c0ca",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDelete": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "RainbowBrackets.depreciation-notice": false,
+  "editor.matchBrackets": "never",
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "workbench.colorCustomizations": {},
+  "editor.linkedEditing": true,
+  "editor.guides.bracketPairs": true,
+  "breadcrumbs.enabled": false,
+  "redhat.telemetry.enabled": false,
+  "editor.stickyScroll.enabled": true,
+  "workbench.editorAssociations": {
+    "*.sqlite": "default"
+  },
+  "rapidapi.terminalLink.enabled": false,
+  "terminal.integrated.env.linux": {},
+  "symbols.hidesExplorerArrows": false,
+  "workbench.iconTheme": "vscode-icons",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.minimap.enabled": false,
+  "react-native-tools.showUserTips": false,
+  "console-ninja.featureSet": "Community",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "peacock.favoriteColors": [
+    {
+      "name": "Angular Red",
+      "value": "#dd0531"
+    },
+    {
+      "name": "Azure Blue",
+      "value": "#007fff"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f9e64f"
+    },
+    {
+      "name": "Mandalorian Blue",
+      "value": "#1857a4"
+    },
+    {
+      "name": "Node Green",
+      "value": "#215732"
+    },
+    {
+      "name": "React Blue",
+      "value": "#61dafb"
+    },
+    {
+      "name": "Something Different",
+      "value": "#832561"
+    },
+    {
+      "name": "Svelte Orange",
+      "value": "#ff3d00"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b883"
+    }
+  ],
+  "cSpell.language": "es,en",
+  "workbench.editor.editorActionsLocation": "titleBar",
+  "workbench.startupEditor": "none",
+  "prisma.showPrismaDataPlatformNotification": false,
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "window.menuBarVisibility": "toggle"
+}
